@@ -1,0 +1,29 @@
+-ADD: AI Shooter Bots, Now players can play with bots and other players, bots are sync over network with a basic shooter behavior, bots can shoot and throw grenades between them and real players,
+also have a basic cover / safe point system, bots are available only in FFA game mode at the moment and the system is in BETA stage and will be improve with the future updates.
+-ADD: Weapon Weight: now you can set a weight for each weapon (on the weapon info) that affect the player speed.
+-IMPROVE: Now Gun bob movement speed and footstep rate is affected by the player speed;
+-FIX: Player keep walking without forward key pressed when open menu.
+-IMPROVE: Aim sight hands movement in remote players, using IK you can adjust the position where the right hand will be when it is in the inspector of bl_HeatLookMecanim.cs
+-FIX: Player running footstep interval was ignored and walking interval was taken instead.
+-Update: Photon PUN and Photon Voice to the last version (1.89 and 1.13.1)
+-FIX: Photon statistics ui in lobby not show again after leaving a room.
+-IMPROVE: Heat look, now is more accuracy and include the arms with IK support.
+-IMPROVE: Remove the "Change Server" window from lobby and replace with a server drop down.
+-ADD: Spawn protection, now player can not receive damage for a few second after spawn, you can set the time in bl_PlayerDamageManager.cs
+-IMPROVE: Added Russia East optional server.
+-IMPROVE: Now save the preferred server region locally.
+-IMPROVE: Added 'No limit' option for max player ping.
+-FIX: Mobile Control: Can keep throwing grenades even when they have not more ammo. (No update required)
+-IMPROVE: Reduce per player net messages and better optimization on bl_PlayerSync.cs
+-ADD: Spectators count in scoreboard, show how many players are spectating the game.
+-ADD: Support ticked system for ULogin Pro addons, now player can send to ticket / message and devs can reply trough the Admin Panel.
+-FIX: MiniMap addons: show two icons for local player in minimap. (Does not require Update)
+-IMPROVE: Now you can adjust the player left hand position (using IK) on the weapon in the inspector of bl_NetworkGun, an gizmo will show you a preview of where the hand will be.
+-FIX: Player state icon on Mobile control addon.
+-IMPROVE: Mapped the 'Switch fire fire type' (B) on Input Manager.
+-FIX: keep pressing the reload button while reloading add more bullets to the weapon of which should.
+-ADD: Network footstep, this feature is optional and disable by default you can activate in GameData.
+-FIX: Gun Race, upgrade weapon in all game modes. (No update required)
+-IMPROVE: Input Manager, Add support for GamePad / Console controller, tested on Xbox controller only at the moment. (Require Update)
+-ADD: AI Shooter Bots, Now players can play with bots and other players, bots are sync over network with a basic shooter behavior, bots can shoot and throw grenades between them and real players,
+also have a basic cover / safe point system, bots are available only in FFA game mode at the moment and the system is in BETA stage and will be improve with the future updates.

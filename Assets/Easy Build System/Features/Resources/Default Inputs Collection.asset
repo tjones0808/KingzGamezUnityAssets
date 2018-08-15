@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2238d0e3670fd24b9024c686deb8a23, type: 3}
+  m_Name: Default Inputs Collection
+  m_EditorClassIdentifier: Assembly-CSharp:EasyBuildSystem.Runtimes.Internal.Managers.Data:InputsCollection
+  InputPlacementKey: 101
+  InputPlacementIsCustom: 0
+  InputPlacementName: Ebs_Placement
+  InputDestructionKey: 114
+  InputDestructionIsCustom: 0
+  InputDestructionName: Ebs_Destruction
+  InputSwitchName: Mouse ScrollWheel
+  InputEditionKey: 116
+  InputEditionIsCustom: 0
+  InputEditionName: Ebs_Edition
+  InputActionKey: 323
+  InputActionIsCustom: 0
+  InputActionName: Ebs_Validate
+  InputCancelKey: 324
+  InputCancelIsCustom: 0
+  InputCancelName: Ebs_Cancel
